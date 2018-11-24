@@ -1,0 +1,31 @@
+{
+  "name": "devmium/blade-wp",
+  "description": "Blade package for WordPress",
+  "license": "MIT",
+  "homepage": "https://github.com/devmium/blade-wp",
+  "support": {
+    "issues": "https://github.com/devmium/blade-wp/issues",
+    "source": "https://github.com/devmium/blade-wp"
+  },
+  "authors": [
+    {
+      "name": "Mohamed Boudelaa",
+      "email": "devmium@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Devmium\\Blade\\": "src/"
+    },
+    "files": [
+      "helpers.php"
+    ]
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev"
+}
