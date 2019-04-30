@@ -21,7 +21,7 @@
       "Devmium\\Blade\\": "src/"
     },
     "files": [
-      "helpers.php"
+      "src/helpers.php"
     ]
   },
   "config": {
